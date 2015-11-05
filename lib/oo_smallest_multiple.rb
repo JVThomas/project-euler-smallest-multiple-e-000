@@ -14,7 +14,7 @@ class SmallestMultiple
     end
 
     while value_found == false
-      num += 20
+      num += @ceiling
       value_found = @arrNum.all? do |element|
         num % element == 0
       end

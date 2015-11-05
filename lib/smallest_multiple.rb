@@ -9,7 +9,7 @@ def smallest_multiple(input)
   end
 
   while value_found == false
-    num += 20
+    num += input
     value_found = arrNum.all? do |element|
       num % element == 0
     end
